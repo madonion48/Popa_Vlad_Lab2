@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Crisan_AndreaMaria_Lab2"
+        xmlns:local="clr-namespace:Popa_Vlad_Lab2"
         mc:Ignorable="d"
         Title="Virtual Doughnuts Factory" Height="500" Width="837" ResizeMode="NoResize" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
     <Grid>
