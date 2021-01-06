@@ -7,7 +7,6 @@ namespace Popa_Vlad_Lab2
     class DoughnutMachine
     {
         private DoughnutType mFlavor;
-
         public DoughnutType Flavor
         {
             get
@@ -25,6 +24,7 @@ namespace Popa_Vlad_Lab2
             get
             {
                 return (Doughnut)mDoughnuts[Index];
+
             }
             set
             {
@@ -65,6 +65,7 @@ namespace Popa_Vlad_Lab2
         }
         public void MakeDoughnuts(DoughnutType dFlavor)
         {
+
             Flavor = dFlavor;
             switch (Flavor)
             {
@@ -76,6 +77,7 @@ namespace Popa_Vlad_Lab2
             }
             doughnutTimer.Start();
         }
+
     }
     public enum DoughnutType
     {
@@ -88,6 +90,7 @@ namespace Popa_Vlad_Lab2
     class Doughnut
     {
         private DoughnutType mFlavor;
+
         public DoughnutType Flavor
         {
             get
@@ -118,12 +121,12 @@ namespace Popa_Vlad_Lab2
             {
                 return mTimeOfCreation;
             }
+
         }
         public Doughnut(DoughnutType aFlavor) // constructor
         {
             mTimeOfCreation = DateTime.Now;
             mFlavor = aFlavor;
         }
-
     }
 }
